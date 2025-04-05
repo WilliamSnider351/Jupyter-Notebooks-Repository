@@ -1,8 +1,0 @@
-import pandas as pd
-
-# Load the CSV file into a DataFrame
-salaries_df = pd.read_csv('NBA Salaries Full List.csv')  # Ensure the file path is correct
-
-# Display the first few rows of the DataFrame to confirm it's loaded correctly
-print(salaries_df.head())
-
